@@ -51,6 +51,7 @@ Assert.assertTrue(isValid);
 
 @Then("Close browser")
 public void close_browser() {
+	System.out.println("committed");
    driver.close();
 }
 
